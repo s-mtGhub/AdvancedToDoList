@@ -1,0 +1,23 @@
+
+
+//[todolistsbasic] toDolists Basic///////////////////////////////////////////////////////
+import React from 'react'
+import ReactDom from 'react-dom'
+import App from './todolistsbasic/App'  
+ReactDom.render(<App />,document.getElementById('root'));
+/////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+/*
+//[todolistsCutLine] toDolists using cut-lines////////////////////////////////////////////
+import React from 'react'
+import ReactDom from 'react-dom'
+import App from './todolistsCutLine/App'  
+
+ReactDom.render(<App />,document.getElementById('root'));
+*/
+//////////////////////////////////////////////////////////////////////////////////////////
+
