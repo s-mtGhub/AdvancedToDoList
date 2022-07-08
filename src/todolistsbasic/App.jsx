@@ -9,7 +9,7 @@ const App=()=>{
    return (
      <>
        <Router>
-         <Link to="/AdvancedToDoList"></Link>
+         <Link to="/AdvancedToDoList/:title"></Link>
          <Switch>
            <Route exact path="/AdvancedToDoList/:title" component={Listpage} />
            <Redirect to="/AdvancedToDoList/ToDoList" />
