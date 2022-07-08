@@ -4,7 +4,13 @@
 import React from 'react'
 import ReactDom from 'react-dom'
 import App from './todolistsbasic/App'  
-ReactDom.render(<App />,document.getElementById('root'));
+import {BrowserRouter as Router} from "react-router-dom"
+ReactDom.render(
+  <Router basename={process.env.PUBLIC_URL}>
+    <App />
+  </Router>,
+  document.getElementById("root")
+);
 /////////////////////////////////////////////////////////////////////////////////////////
 
 
